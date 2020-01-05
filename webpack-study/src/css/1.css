@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+}
+
+/* 需配置 postCSS，否则某些浏览器会不生效 */
+::placeholder {
+  color: red;
+}
+
+#box {
+  width: 580px;
+  height: 340px;
+  background-color: pink;
+  background: url('../images/1.jpg');
+}
